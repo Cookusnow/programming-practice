@@ -1,0 +1,18 @@
+"use strict";
+let age = 25;
+age = true;
+console.log(age);
+age = 'axel';
+console.log(age);
+age = { name: 'xion' };
+console.log(age);
+let mixed = [];
+mixed.push(5);
+mixed.push('roxas');
+mixed.push(true);
+console.log(mixed);
+let ninja;
+ninja = { name: 'ephemer', age: 17 };
+console.log(ninja);
+ninja = { name: 17, age: 'ephemer' };
+console.log(ninja);
